@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #2e7d32;
+  color: white;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin: 0 10px;
+}
+.hero {
+  background: url('images/ayurveda-bg.jpg') no-repeat center/cover;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+.btn {
+  background: #6d4c41;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+footer {
+  background: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
